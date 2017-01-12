@@ -1,0 +1,10 @@
+/* Empty. Add your own CSS if you like */
+#dash{
+	background: url("../img/frutas.jpg") repeat;
+}
+#box{
+	margin-top: 110px;
+	background-color:#FFF;
+	padding: 20px;
+	border-radius: 20px;
+}

@@ -1,0 +1,23 @@
+<ion-view view-title="Peso Ideal">
+  <ion-content class="padding">
+    <div class="list">
+        <label class="item item-input">
+          <span class="input-label">Altura (m)</span>
+          <input id="altura" type='number' step=0.01 required>
+        </label>
+
+        <ion-list>
+		  <ion-radio ng-model="value" value="M">Masculino</ion-radio>
+		  <ion-radio ng-model="value" value="F">Feminino</ion-radio>
+		</ion-list>
+        
+
+        <button class="button button-full button-balanced" on-tap="calcula(value)">
+          Calcular
+        </button>
+      </div>
+      <div class="col text-center">{{pesoideal}}</div>
+      <div class="col text-center">{{resposta}} {{kg}}</div>
+
+  </ion-content>
+</ion-view>
