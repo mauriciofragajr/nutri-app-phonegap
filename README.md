@@ -5,3 +5,8 @@ Utilização do phonegap/cordova para o desenvolvimento de um app híbrido com f
 Projeto em andamento.
 
 Lembrar de colocar as dependências no projeto para rodar tudo.
+
+Funcionando:
+
+- Cálculo do IMC
+- Cálculo do peso ideal
